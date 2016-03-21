@@ -9,7 +9,7 @@ int main(){
 	Bmi BmiObject;
 	ifstream input("file.in",ios::in);
 	ofstream output("file.out",ios::trunc);
-	output.close;
+	output.close();
 
 	while( (input>>height) && (input>>weight) && (weight!=0) ){
 		BmiObject.setHeightWeight(height,weight);
